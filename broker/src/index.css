@@ -1,0 +1,185 @@
+/* Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License").
+You may not use this file except in compliance with the License.
+A copy of the License is located at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+or in the "license" file accompanying this file. This file is distributed
+on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+express or implied. See the License for the specific language governing
+permissions and limitations under the License. */
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	background: url("https://cdn1.example.com/system/images/example-auth-bg.png");
+	background-size: cover;
+	background-position: bottom center;
+	height: 100%;
+	width: 100%;
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+/*
+ * See full list: https://docs.amplify.aws/ui/customization/theming/q/framework/react#supported-css-custom-properties
+ */
+:root {
+	--amplify-primary-color: #022169;
+	--amplify-secondary-color: #333;
+	--amplify-primary-tint: #022169;
+}
+
+/*
+ * See full list: https://docs.amplify.aws/ui/auth/authenticator/q/framework/react#props-css-amplify-authenticator
+ */
+amplify-authenticator {
+	--border-radius: 0px;
+	--box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.15);
+	--padding: 0px 16px 0px 16px;
+	--margin-bottom: 0px;
+	--container-display: flex;
+	--container-justify: center;
+	--container-align: center;
+	--container-height: auto;
+}
+
+input,
+.btn {
+	width: 100%;
+	padding: 12px;
+	opacity: 1;
+	border: none;
+	border-radius: 4px;
+	margin: 5px 0;
+	display: inline-block;
+	font-size: 17px;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+input:hover,
+.btn:hover {
+	opacity: 0.85;
+	cursor: pointer;
+}
+
+.AP_IDP_Social_Sign_In {
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 10px;
+	padding: 16px;
+}
+
+.AP_IDP_Social_Sign_In .MuiBox-root {
+	width: 33.333%;
+}
+
+.AP_IDP_Social_Sign_In .MuiBox-root .btn {
+	padding: 10px;
+	box-shadow: none;
+	cursor: pointer;
+	border-radius: 4px;
+	transition: all 0.3s ease;
+}
+
+.AP_IDP_Social_Sign_In .MuiBox-root .btn.fb {
+	border: 1px solid #3b5998;
+	background: transparent;
+	color: #3b5998;
+}
+
+.AP_IDP_Social_Sign_In .MuiBox-root .btn.fb:hover {
+	border: 1px solid #3b5998;
+	background: #3b5998;
+	color: #fff;
+}
+
+.AP_IDP_Social_Sign_In .MuiBox-root .btn.amazon {
+	border: 1px solid #ff9900;
+	background: transparent;
+	color: #ff9900;
+}
+
+.AP_IDP_Social_Sign_In .MuiBox-root .btn.amazon:hover {
+	border: 1px solid #ff9900;
+	background: #ff9900;
+	color: #fff;
+}
+
+.AP_IDP_Social_Sign_In .MuiBox-root .btn.saml {
+	border: 1px solid #232f3e;
+	background: transparent;
+	color: #232f3e;
+}
+
+.AP_IDP_Social_Sign_In .MuiBox-root .btn.saml:hover {
+	border: 1px solid #232f3e;
+	background: #232f3e;
+	color: #fff;
+}
+
+.AP_IDP_Social_Sign_In .MuiBox-root .btn.google {
+	border: 1px solid #dd4b39;
+	background: transparent;
+	color: #dd4b39;
+}
+
+.AP_IDP_Social_Sign_In .MuiBox-root .btn.google:hover {
+	border: 1px solid #dd4b39;
+	background: #dd4b39;
+	color: #fff;
+}
+
+.AP_IDP_Social_Sign_In .MuiBox-root .btn.apple {
+	border: 1px solid #000;
+	background: transparent;
+	color: #000;
+}
+
+.AP_IDP_Social_Sign_In .MuiBox-root .btn.apple:hover {
+	border: 1px solid #000;
+	background: #000;
+	color: #fff;
+}
+
+.st1,
+.st2 {
+	fill: #3d3d3d;
+}
+
+.st0,
+.st1 {
+	clip-rule: evenodd;
+}
+.st0 {
+	fill-rule: evenodd;
+	fill: #4287b5;
+}
+
+#signInContainer #app-content-logo {
+	max-width: 280px;
+}
+
+.sso_dashboard,
+.user_settings_page {
+	padding: 16px;
+}
+
+.makeStyles-border-17 {
+	opacity: 0.3;
+}
